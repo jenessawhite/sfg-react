@@ -14,6 +14,15 @@
     "eject": "react-scripts eject",
     "lint": "eslint ."
   },
+  "lint-staged": {
+    "src/**/*.{js,jsx}": ["eslint . --fix", "git add"],
+    "src/**/*.+(json|css|md)": ["prettier --write", "git add"]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -38,6 +47,8 @@
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-react": "7.16.0",
     "eslint-plugin-standard": "4.0.1",
+    "husky": "3.0.9",
+    "lint-staged": "9.4.3",
     "prettier": "1.19.1"
   }
 }

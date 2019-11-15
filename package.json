@@ -12,11 +12,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint ."
+    "lint": "eslint . --fix"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx}": ["eslint . --fix", "git add"],
-    "src/**/*.{json|css|md}": ["prettier --write", "git add"]
+    "src/**/*.(js|html|css|json)": [
+      "prettier --write",
+      "git add"
+    ],
+    "src/**/*.{js,jsx}": [
+      "yarn lint",
+      "git add"
+    ]
   },
   "husky": {
     "hooks": {

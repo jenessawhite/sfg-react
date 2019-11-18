@@ -2,7 +2,7 @@
 
 This is a project meant to be cloned and utilized for SfG to spin up React projects a little bit faster. It is by no means a final say so and may/should be modified to your project's specific needs.
 
-- Clone this repository and name it appropriate to your project `git clone https://github.com/sferik/sign-in-with-twitter.git {your project name}`
+- Clone this repository and name it appropriate to your project `git clone git@github.com:softwareforgood/sfg-react.git {your project name}`
 
 ## What's here?
 

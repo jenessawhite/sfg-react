@@ -8,6 +8,10 @@ This is a project meant to be cloned and utilized for SfG to spin up React proje
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It also has a `.nvmrc`, `.prettierrc.json`, and `.eslintrc.json` files. These files are meant to help us standardize our practices. Getting us all to use the same node versions, JS code styles, and linting our stylesheets, so that when other teammates jump into a project they can write code consistent to the project, and across all projects.
 
+## Updating Create React App
+
+Keeping this boilerplate up to date, and your specific project, is fairly simple for CRA. Everything is handled by `react-scripts` so we just need to keep that up to date per the [instructions](https://create-react-app.dev/docs/updating-to-new-releases/). 
+
 ## This README
 
 This README has a basic template below. Please update it per your project so that any team member can have a clear understanding of how to contribute, run, and deploy the application.
